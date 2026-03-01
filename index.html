@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Ndoye Abdou</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: url('fond.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+p {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: block;
+    margin: 12px 0;
+    padding: 14px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.call { background: #1a7f37; }
+.appointment { background: #0056d6; }
+.save { background: #444; }
+
+</style>
+</head>
+<body>
+
+<div class="card">
+<h1>Ndoye Abdou</h1>
+<p>Bolting</p>
+
+<a class="button call" href="tel:+33611861456">📞 Appeler</a>
+
+<a class="button appointment" href="https://calendly.com/votre-lien" target="_blank">📅 Prendre rendez-vous</a>
+
+<a class="button save" href="contact.vcf" download>💾 Ajouter aux contacts</a>
+</div>
+
+</body>
+</html>
